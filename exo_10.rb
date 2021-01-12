@@ -1,11 +1,10 @@
 puts "Votre année de Naissance >"
-yrb = gets.chomp.to_i
-yrt = 2021
-brt = 0
+yearb = gets.chomp.to_i
+yeart = 2021
+birth = 0
 
-while yrb <= yrt do
-	puts ("#{yrb}")
-	yrb +=1
-	puts ("Tu avais #{brt} ans cette année")
-	brt +=1
+while yearb <= yeart do
+    puts ("Tu avais #{birth} ans en #{yearb}")
+    yearb +=1
+	birth +=1
 end
